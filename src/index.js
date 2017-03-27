@@ -4,12 +4,14 @@ import Tabs from './components/Tabs';
 import MapOne from './components/MapOne';
 import MapTwo from './components/MapTwo';
 import MapThree from './components/MapThree';
+import MapFour from './components/MapFour';
 
 export const Router = createRouter(() => ({
   tabs: () => Tabs,
   mapOne: () => MapOne,
   mapTwo: () => MapTwo,
-  mapThree: () => MapThree
+  mapThree: () => MapThree,
+  MapFour: () => MapFour
 }));
 
 export default class App extends React.Component {

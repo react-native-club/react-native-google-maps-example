@@ -43,6 +43,15 @@ export default class Tabs extends React.Component {
           />
         </TabItem>
 
+        <TabItem
+          id="mapFour"
+          renderIcon={(isSelected) => <Text>4</Text>  }>
+          <StackNavigation
+            id="mapFour"
+            initialRoute={Router.getRoute('MapFour')}
+          />
+        </TabItem>
+
       </TabNavigation>
     );
   }
